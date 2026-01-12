@@ -15,7 +15,7 @@ local PlayerGui = player:WaitForChild("PlayerGui")
 -- MUSIC (TOCA DE VERDADE)
 ------------------------
 local music = Instance.new("Sound")
-music.SoundId = "rbxassetid://SEU_ID_DE_MUSICA"
+music.SoundId = "rbxassetid://1837467339"
 music.Volume = 2
 music.Looped = true
 music.Parent = SoundService
@@ -44,7 +44,7 @@ local floatBtn = Instance.new("ImageButton", floatGui)
 floatBtn.Size = UDim2.fromOffset(70,70)
 floatBtn.Position = UDim2.fromScale(0.08,0.5)
 floatBtn.BackgroundColor3 = Color3.fromRGB(130,0,190)
-floatBtn.Image = "rbxassetid://ID_DA_FOTO_DO_GHOUL"
+floatBtn.Image = "rbxassetid://74356605425526"
 Instance.new("UICorner", floatBtn).CornerRadius = UDim.new(1,0)
 
 -- DRAG
